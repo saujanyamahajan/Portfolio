@@ -1,0 +1,219 @@
+/* styling the id greetings */
+@font-face{
+  src: url(/font/Snell_Roundhand_Script.ttf);
+  font-family: greetings;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(217, 246, 255);
+  overflow: auto;
+}
+
+/* Style for Particle.js */
+canvas {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  height: max-content;
+  z-index: -1;
+}
+
+.navbar {
+  background-color: rgb(102, 208, 250);
+  overflow: auto;
+  height: 3rem;
+}
+
+.navbar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: rgb(36, 193, 233);
+  color: black;
+}
+
+h1{
+  color: #070ac5;
+  text-align: center;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+#greetings {
+  padding-top: 1rem;
+  font-size: 35px;
+  font-family: 'greetings';
+  color: #00b0cf;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.profile_pic {
+  border-radius: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 400px;
+  border: 2px ;
+  filter: blur(2px);
+  transition: filter 1s linear;
+
+}
+
+
+.profile_pic:hover {
+  filter: blur(0);
+}
+
+.intro {
+  text-align: center;
+  padding-top: 3rem; 
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-bottom: 5rem;
+  color:#070ac5;
+  font-size: 25px;
+}
+
+.tech{
+  text-align: center;
+  padding-top: 1rem; 
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-bottom: 1rem;
+  color: #00b0cf;
+  font-size: 20px;
+}
+
+.skills{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 2rem; 
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-bottom: 5rem;
+  color: #00b0cf;
+  font-size: 25px;
+}
+.education{
+  text-align: center;
+  padding-top: 1rem; 
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-bottom: 5rem;
+  color: #00b0cf;
+  font-size: 20px;
+}
+/* .edu{
+  background-color: rgb(189, 255, 6);
+} */
+
+.experience {
+  text-align: center;
+  padding-top: 1rem; 
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-bottom: 5rem;
+  color: #00b0cf;
+  font-size: 20px;
+
+}
+
+.proj h2{
+  color: #070ac5;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+.proj p{
+  color: #00b0cf;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+.proj a{
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.contac{
+   text-align: center;
+  padding-top: 1rem; 
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-bottom: 5rem;
+  color: #00b0cf;
+  font-size: 15px;
+}
+/* Social Network Connect */
+.socialNav {
+  justify-content:center;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.socialNav .fa {
+  font-size: 30px;
+  letter-spacing: 1rem;
+  color: #00b0cf;
+  border-radius: 30%;
+}
+.socialNav a .fa:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+i {
+  margin-top: 1rem;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 40px;
+  color: #fff;
+}
+
+
+/* Shuffle */
+
+/* .shuffle {
+  /* background-color: #1d1d1d; */
+  /* width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(151, 213, 255);
+  display:flex;
+  position: absolute;
+  justify-content:center;
+  margin-top: 5px;
+  letter-spacing: 3px;
+  white-space: nowrap;
+} */ 
+
